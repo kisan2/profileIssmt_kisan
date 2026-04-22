@@ -1,0 +1,13 @@
+h3{
+    color: yellow;
+    background-color: red;
+    height: fit-content;
+    width: 40px;
+    padding: 10px;
+    margin: 0px;
+    
+}
+h1,h2{
+    background-color: green;
+    margin: 0px;
+}
