@@ -7,7 +7,7 @@ nav{
     /* background-color: red; */
     display: flex;
     justify-content: space-between;
-    padding: 6px 20px;
+    padding: 16px 20px;
     align-items: center;
     box-shadow: 1px 1px 10px rgb(208, 208, 208);
 }
@@ -15,10 +15,10 @@ nav{
 
 .logo{
     background-color: green;
-    height: 20px;
-    width: 20px;
+    height: 60px;
+    width: 60px;
 border-radius: 100%;
-    font-size: 8px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,11 +28,11 @@ border-radius: 100%;
 .menu{
     /* background-color: blue; */
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .menu a{
-font-size: 8px;
+font-size: 18px;
 color: black;
 text-decoration: none;
 cursor: pointer;
@@ -41,5 +41,5 @@ transition: all .5s linear;
 }
 .menu a:hover{
     color: red;
-    font-size:10px ;
+    font-size:20px ;
 }
