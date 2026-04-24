@@ -43,3 +43,51 @@ transition: all .5s linear;
     color: red;
     font-size:20px ;
 }
+.menu_icon{
+    display: none;
+}
+.banner{
+    background-color: red;
+    height: 500px;
+    width: 100%;
+}
+
+
+.banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.backgrround{
+    height: 600px;
+    width: 100%;
+    background-image: url('../resource/Image/image.webp');
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+
+
+@media(max-width:480px){
+    body{
+        background-color: red;
+    }
+.logo{
+    height: 40px;
+    width: 40px;
+    font-size: 14px;
+}
+    .menu{
+    display:none ;
+}
+.menu_icon{
+    display: block;
+}
+.menu_icon svg{
+    color: white;
+}
+
+.banner{
+    height: 200px;
+}
+}
