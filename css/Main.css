@@ -46,10 +46,49 @@ transition: all .5s linear;
 .menu_icon{
     display: none;
 }
+
+.banner_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width:90%;
+    margin: 0px auto;
+}
+
+.banner_data{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* align-items: center; */
+    justify-content: center;
+}
+.banner_data h1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 48px;
+    font-style: italic;
+}
+.banner_data div{
+    font-size: 38px;
+    text-transform: capitalize;
+    font-weight: 700;
+} 
+.banner_butttons button{
+    padding: 18px 22px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    animation: alternate infinite  1s  buttonanimate;
+} 
 .banner{
     background-color: red;
-    height: 500px;
-    width: 100%;
+    height: 600px;
+    width: 90%;
+    margin: 20px 0px;
+    border-radius: 20px;
+
+    overflow: clip;
 }
 
 
@@ -58,14 +97,44 @@ transition: all .5s linear;
     width: 100%;
     object-fit: cover;
 }
-.backgrround{
+/* .backgrround{
     height: 600px;
     width: 100%;
     background-image: url('../resource/Image/image.webp');
      background-repeat: no-repeat;
      background-size: cover;
-}
+} */
 
+
+@keyframes buttonanimate{
+    0%{
+    background-color: red;
+
+        /* transform: rotate(0deg); */
+    }
+    25%{
+    background-color: green;
+
+        /* transform: rotate(45deg); */
+    }
+
+    50%{
+    background-color: yellow;
+
+        /* transform: rotate(45deg); */
+    }
+
+    75%{
+    background-color: purple;
+
+        /* transform: rotate(45deg); */
+    }
+    100%{
+    background-color: aqua;
+
+        /* transform: rotate(45deg); */
+    }
+}
 
 
 @media(max-width:480px){
